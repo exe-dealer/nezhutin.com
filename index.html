@@ -4,8 +4,103 @@
   <title>Vladislav Nezhutin</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+  <meta property="og:title" content="Vladislav Nezhutin" />
+  <meta property="og:url" content="https://nezhutin.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://nezhutin.com/headhot.jpg" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      font: 20px / 1.5 "Outfit", sans-serif;
+    }
+
+    body {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 4rem 1rem;
+      text-wrap: balance;
+    }
+
+    .greeting {
+      text-transform: uppercase;
+      margin: -1rem 0;
+      font-weight: 200;
+    }
+
+    .title {
+      font-weight: 500;
+      font-size: 1.8rem;
+      margin: .5rem 0;
+      text-decoration: underline;
+    }
+
+    .h2 {
+      font-weight: 400;
+    }
+
+    .headshot {
+      border-radius: 50%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .contact {
+      all: unset;
+      display: block;
+    }
+
+    @media (min-width: 800px) {
+      body {
+        padding-left: calc(300px + 4rem);
+      }
+      .headshot {
+        float: left;
+        margin-left: calc(-300px - 2rem);
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+
+  <p class="greeting">Hello, world! I'm</p>
+  <h1 class="title">Vladislav Nezhutin</h1>
+
+  <img class="headshot" src="headshot.jpg" alt="My head shot" width="300" height="300" />
+
+  <p>I’m a <strong>software engineer</strong>.
+  A maniac with a code&#8209;driven mind and a laser focus that devours complexity.</p>
+
+  <p>Becoming a <strong>web developer</strong> was inevitable for me, shaped by the power
+  and omnipresence of humanity’s greatest invention: the Internet.</p>
+
+  <p><strong>Full-stack</strong> is the way.
+  Confidence comes from understanding the machines inside out.
+  Satisfaction comes from bending them to my will.</p>
+
+  <p>PostgreSQL and JavaScript are my tools of choice. I'm author of
+  <a href="https://github.com/kagis/pgwire">pgwire</a>
+  (PostgreSQL client for Node.js and Deno) and
+  <a href="https://github.com/kagis/pgblackboard">pgblackboard</a>
+  (browser based UI for PostgreSQL).</p>
+
+  <h2 class="h2">Contact me</h2>
+  <address class="contact">
+  By telegram <a href="https://t.me/exedealer">@exedealer</a>
+  or e-mail <a href="mailto:exe-dealer@yandex.kz">exe-dealer@yandex.kz</a>
+  </address>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPGVSQEF2C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HPGVSQEF2C');
+  </script>
+
 </body>
 </html>
